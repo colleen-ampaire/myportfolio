@@ -1,0 +1,132 @@
+/* General Reset and Base Styles */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f9f9fb;
+  color: #333;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+
+h1, h2 {
+  color: #2c3e50;
+  margin-top: 1.5em;
+}
+
+h1 {
+  font-size: 2em;
+  border-bottom: 2px solid #3498db;
+  padding-bottom: 0.3em;
+}
+
+h2 {
+  font-size: 1.5em;
+  margin-bottom: 0.5em;
+}
+
+p, li {
+  font-size: 1em;
+}
+
+strong {
+  color: #34495e;
+}
+
+/* Navigation */
+nav {
+  background-color: #b434db;
+  padding: 10px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* Figures and Images */
+figure {
+  margin: 20px auto;
+  text-align: center;
+}
+
+img {
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.11);
+}
+
+figcaption {
+  font-style: italic;
+  margin-top: 5px;
+  color: #7f8c8d;
+}
+
+/* Tables */
+table {
+  width: 90%;
+  margin: 20px auto;
+  border-collapse: collapse;
+  background-color: #ffffff;
+}
+
+table th, table td {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: left;
+}
+
+table thead {
+  background-color: #ecf0f1;
+  font-weight: bold;
+}
+
+/* Lists */
+ul {
+  list-style-type: square;
+  padding-left: 20px;
+  margin-bottom: 20px;
+}
+
+/* Contact Info */
+ul li {
+  margin-bottom: 5px;
+}
+
+/* Footer and Links */
+a {
+  color: #2980b9;
+}
+
+a:hover {
+  color: #1abc9c;
+}
+
+/* Section Dividers */
+hr {
+  border: none;
+  height: 2px;
+  background-color: #ddd;
+  margin: 40px 0;
+}
+
+/* Responsive Enhancements */
+@media (max-width: 768px) {
+  body {
+    padding: 10px;
+  }
+
+  table {
+    width: 100%;
+  }
+
+  nav {
+    font-size: 0.9em;
+  }
+}
